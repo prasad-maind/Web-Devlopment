@@ -1,0 +1,375 @@
+#top-bar{
+    width: 100%;
+    height: 77px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px ;
+    box-sizing: border-box;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.menu-item{
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 24px;
+
+}
+#buynow{
+    background-color: rgb(170,210,54);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 9px 34px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    color: white;
+}
+.menu-item  i {
+margin-left: 4px;
+}
+
+#landing-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');    
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: center;
+}
+.discription{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+}
+body{
+    margin: 0;
+}
+.headings{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600px;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+.step-section{
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
+}
+.step-item{
+    width: 25%;
+    color: white;
+    padding: 112px 48px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.step-item i {
+    font-size: 96px;
+    transition: ease-out;
+}
+
+.step-item p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+.step-item h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.step-item i {
+    font-size: 96px;
+    transition: all 0.3s;
+}
+
+.step-item:hover i{
+    transform: scale(1.1, 1.1);
+}
+
+#first-item{
+    background-color: #5acda6;
+}
+
+#secound-item{
+    background-color:#91ac41;
+}
+
+#third-item{
+    background-color: #e4b476;
+}
+
+#fourth-item{
+    background-color: #f69dad;
+}
+
+.store-section{
+    width: 100%;
+
+    background-color: #f7eee2;
+}
+
+
+
+
+/*////////////////////////////////////////////////*/
+
+#FreshFood{
+color: #91ac41;
+font-size: 24px;
+font-family: 'Caveat', cursive;
+}
+.store-section{
+    width: 100%;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.store-section h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+#storediscription{
+    font-size: 16px;
+    color: #8b8b99;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+
+#wrappers{
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.store-item h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.store-item p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+.icon {
+    display: inline-block;
+    background-color: #e3b375;   
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+    transition: all 0.3s;
+}
+
+.store-item:hover .icon{
+    transform: scale(1.1, 1.1);
+}
+
+.icon i {
+    font-size: 60px;
+}
+
+.store-item {
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+}
+
+div {
+    display: block;
+}
+
+
+/*8888888888888888888888888888888888888888888888888888*/
+
+.testimonials{
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+#testimonial----wraps{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#test-item{
+    width: 25%;
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+#test-item img{
+    width: 80px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+#test-item p{
+    font-size: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+#test-item h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0px;;
+}
+#test-item p1{
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+.follow{
+    display: flex;
+    justify-content: stretch;
+}
+
+#text-wrap{
+    margin: 115px;
+}
+
+#left-section {
+    width: 67%;
+    display: inline-block;
+    margin: 0;
+}
+
+#left-section img {
+    width: 100%;
+}
+#subscribe{
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+#email{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display: block;
+}
+#text-wrap h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+#text-wrap p{
+    color: #8b8b99;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    margin: 0;
+}
+
+#right-sec{
+    width: 33.33%;
+    margin: 0;
+    display: inline-block;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-position: left;
+    background-size: cover;
+}
+
+
+/**************************************************************/
+.status{
+    width: 100%;
+    background-color: #f6fcfa;
+
+}
+#status-wrapper{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.status-item{
+    width: 25%;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.status-item h3{
+    font-size: 44px;
+    font-weight: 600px;
+    margin: 0;
+}
+.status-item p{
+    color: #57e3b5;
+    font-size: 14px;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 0.5px;
+
+}
